@@ -1,0 +1,121 @@
+04.22 9:48 AM
+p4
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\usepackage{tikz}
+
+\usetikzlibrary{calc}
+
+\usepackage{ragged2e}
+
+\usepackage{indentfirst}
+
+
+
+\begin{document}
+
+
+
+\begin{titlepage}
+
+  \centering
+
+  \begin{tikzpicture}[remember picture, overlay]
+
+    % Outer border
+
+    \draw[line width=3pt]
+
+      ($ (current page.north west) + (2cm,-1cm) $)
+
+      rectangle
+
+      ($ (current page.south east) + (-1cm,1cm) $);
+
+
+
+    % Inner border
+
+    \draw[line width=1.2pt]
+
+      ($ (current page.north west) + (2.1cm,-1.1cm) $)
+
+      rectangle
+
+      ($ (current page.south east) + (-1.1cm,1.1cm) $);
+
+  \end{tikzpicture}
+
+
+
+  \vspace*{2cm}
+
+
+
+  {\large \textbf{JSS MAHAVIDYAPEETHA}}\\[0.5cm]
+
+  {\Large \textbf{Certificate}}\\[1.5cm]
+
+
+
+  \justifying
+
+  This is to certify that the project entitled \underline{\hspace{6cm}} \\
+
+  submitted by \underline{\hspace{6cm}} bearing USN \underline{\hspace{4cm}} \\
+
+  in partial fulfillment of the requirements for the award of the degree of \textbf{Bachelor of Engineering} in \underline{\hspace{3cm}} has been carried out under our supervision during the academic year \underline{\hspace{3cm}}.\\[1cm]
+
+
+
+  \vfill
+
+
+
+  \begin{flushleft}
+
+  \textbf{Guide's Name and Signature:} \\
+
+  \underline{\hspace{7cm}}
+
+  \end{flushleft}
+
+
+
+  \vspace{1cm}
+
+
+
+  \begin{flushright}
+
+  \textbf{Head of the Department:} \\
+
+  \underline{\hspace{6cm}}
+
+  \end{flushright}
+
+
+
+  \vfill
+
+
+
+  \begin{center}
+
+  Department of XYZ \\
+
+  JSS Academy of Technical Education, Bengaluru \\
+
+  Month, Year
+
+  \end{center}
+
+
+
+\end{titlepage}
+
+
+
+\end{document}
