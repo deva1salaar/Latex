@@ -1,5 +1,4 @@
-04.22 9:48 AM
-p4
+
 \documentclass{article}
 
 \usepackage{graphicx}
